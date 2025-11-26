@@ -180,42 +180,86 @@
 // using namespace std;
 
 // int main() {
-// 	int a[5],p,b;
+// 	int a[5],p,b,s;
 // 	for(p=0;p<5;p+=1){
 // 	    cin>>a[p];
 	    
 // 	}
+// 	s=0;
 // 	b=a[0];
 // 	for (p=0;p<5;p+=1){
 // 	    if(a[p]<b){
 // 	        b=a[p];
+// 	        s=p;
 	        
 // 	    }
 	    
 // 	}
-// 	cout<<b;
+// 	cout<<"smallest is "<<b<<" at posn "<<s+1;
+	
 
 // }
 
 
 
 
-// // wap for linear search or wap to find out whether a given element is avilable or not
+// // wap for linear search/sequential or wap to find out whether a given element is avilable or not
 
 // #include <bits/stdc++.h>
 // using namespace std;
 
 // int main() {
-// 	int a[5],x,p;
-// 	for (x=0;x<5;x+=1){
+//     int n;
+//     cin>>n;
+// 	int a[n],x,p;
+// 	for (x=0;x<n;x+=1){
 // 	    cin>>a[x];
 	    
 // 	}
 // 	cin>>p;
-// 	for(x=0;x<5;x+=1){
+// 	for(x=0;x<n;x+=1){
 // 	    if(a[x]==p){
-// 	        cout<<"no is avail. "<<p<<" & at position "<<x;
+// 	        cout<<"no is avail. at posn "<<x+1;
+// 	        break;
 // 	    }
+	    
+	    
 // 	}
-
+// 	if(x==n){
+// 	    cout<<"not found";
+// 	}
 // }
+
+
+
+//                                          OR
+
+
+// // for multiple finding
+
+
+// #include <bits/stdc++.h>
+// using namespace std;
+
+// int main() {
+//     int n;
+//     cin>>n;
+// 	int a[n],x,p,c=0;
+// 	for (x=0;x<n;x+=1){
+// 	    cin>>a[x];
+	    
+// 	}
+// 	cin>>p;
+// 	for(x=0;x<n;x+=1){
+// 	    if(a[x]==p){
+// 	        cout<<" no is avail. at posn "<<x+1;
+// 	        c+=1;
+// 	    }
+	    
+	    
+// 	}
+// 	if(c==0){
+// 	    cout<<"not found";
+// 	}
+// }
+
