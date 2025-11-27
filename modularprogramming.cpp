@@ -339,3 +339,255 @@
 // 	cout<<p;
 
 // }
+
+// // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // //
+
+// wap to find addition of two numbers.
+// wap find addition of 3 no.
+// wap find avg of 3 no.
+// wap find avg and modulus of 2 no and find the addition of avg and modulus
+// wap to find area and circumference of circle.
+// wap to swapping of 2 no
+// wap to input 3 subjects. print pass if %>=50, otherwise print fail.
+// wap find the factorial of given no.
+// wap to find the sum of digits.
+// wap to print fibonacci series.
+// wap to find sum of all no of array.
+// wap to find biggest number of an array.
+// wap to find the sum of all numbers of a matrix
+
+
+// #include <bits/stdc++.h>
+// using namespace std;
+
+// int add(int,int);
+// int main() {
+// 	int a,b,c;
+// 	cin>>a>>b;
+// 	c=add(a,b);
+// 	cout<<c;
+
+// }
+// int add(int a,int b){
+//     int p;
+//     p=a+b;
+//     return(p);
+    
+// }
+
+
+
+
+// #include <bits/stdc++.h>
+// using namespace std;
+
+// int add3(int,int,int);
+
+// int main() {
+// 	int a,b,c,d;
+// 	cin>>a>>b>>c;
+// 	d=add3(a,b,c);
+// 	cout<<d;
+	
+
+// }
+
+// int add3(int a,int b,int c){
+//     int p;
+//     p=a+b+c;
+//     return(p);
+    
+// }
+
+
+
+
+// #include <bits/stdc++.h>
+// using namespace std;
+// int avg(int,int,int);
+
+
+// int main() {
+//     int a,b,c,d;
+//     cin>>a>>b>>c;
+//     d=avg(a,b,c);
+//     cout<<d;
+
+// }
+// int avg(int a,int b, int c){
+//     int p;
+//     p=(a+b+c)/3;
+//     return (p);
+// }
+
+
+
+// #include <bits/stdc++.h>
+// using namespace std;
+// int avg(int,int);
+// int mod(int,int);
+
+// int main() {
+// 	int a,b,c,d;
+// 	cin>>a>>b;
+// 	d=avg(a,b);
+// 	c=mod(a,b);
+// 	cout<<c;
+// 	cout<<"\n"<<d;
+// 	cout<<"\n"<<c+d;
+
+// }
+
+// int avg(int a, int b){
+//     int p;
+//     p=(a+b)/2;
+//     return p;
+    
+// }
+
+// int mod(int a,int b){
+//     int p;
+//     p=a%b;
+//     return p;
+    
+// }
+
+
+
+
+
+// #include <bits/stdc++.h>
+// using namespace std;
+// int area(int);
+// int cir(int);
+
+// int main() {
+// 	int r,a,c;
+// 	cin>>r;
+// 	a=area(r);
+// 	c=cir(r);
+// 	cout<<a<<"\n";
+// 	cout<<c;
+
+// }
+// int area(int r){
+//     int p;
+//     p=3.14*r*r;
+//     return p;
+    
+// }
+// int cir(int r){
+//     int p;
+//     p=2*3.14*r;
+//     return p;
+// }
+
+
+
+
+
+// #include <bits/stdc++.h>
+// using namespace std;
+// int swap(int,int);
+
+
+// int main() {
+// 	int a,b;
+// 	cin>>a>>b;
+// 	swap(a,b);
+
+// }
+// int swap(int a,int b){
+//     int p;
+//     p=a;
+//     a=b;
+//     cout<<"new value of a: "<<a<<" new value of b: "<<p;
+//     return 0;
+// }
+
+
+
+
+
+
+// #include <bits/stdc++.h>
+// using namespace std;
+// int subj(int,int,int);
+
+
+// int main() {
+//     int p,c,m,d;
+//     cin>>p>>c>>m;
+//     d=subj(p,c,m);
+//     if (d>=50){
+//         cout<<"pass";
+    
+//     }
+//     else{
+//         cout<<"fail";
+//     }
+    
+
+// }
+// int subj(int p,int c,int m){
+//     int x;
+//     x=(p+c+m)/3;
+//     return x;
+// }
+
+
+
+
+
+// #include <bits/stdc++.h>
+// using namespace std;
+// int fact(int);
+
+
+// int main() {
+// 	int n,d;
+// 	cin>>n;
+// 	d=fact(n);
+// 	cout<<d;
+
+// }
+
+// int fact(int n){
+//     int x;
+//     x=1;
+//     while (n>0){
+//         x=x*n;
+//         n-=1;
+        
+//     }
+//     return x;
+// }
+
+
+
+
+
+
+
+// #include <bits/stdc++.h>
+// using namespace std;
+// int sum(int);
+
+
+// int main() {
+//     int n;
+//     cin>>n;
+//     d=sum(n);
+//     cout<<d;
+    
+// }
+// int sum(int n){
+//     int x;
+//     x=0;
+//     while(n>0){
+//         x=x+(n%10);
+//         n=n/10;
+        
+//     }
+//     return x;
+// }
